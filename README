@@ -1,0 +1,44 @@
+idan0610
+305681132
+Idan Refaeli
+
+I discussed the exercise with: Eyel Cohen, Amit Tropp.
+
+=============================
+=  README for ex9  =
+=============================
+
+usage: python3.4 game_server.py <port> <game_type> <game_arguments>
+       python3.4 game_server.py <filename>
+       python3.4 game_client.py <game_type> <host> <port>
+
+==================
+=  Description:  =
+==================
+1. game_server.py - The server running the games
+2. game_clients.py - Client connect to server to play the game
+3. Numbers.py - An example game for server
+4. player.py - Player class, for creating objects of players on the Numbers
+               game
+5. README - This file
+
+=============================
+=  List of submitted files: =
+=============================
+
+game_server.py
+game_clients.py
+Numbers.py
+player.py
+README
+
+======================
+=  Special Comments  =
+======================
+To run other games on server, the games first must to match the protocol rules
+of the server-client (as explained on Targil).
+The file name of the game must be the name of the game.
+Also the class name of the game must be the game name.
+The GameServer creates an object of the game, with the game argument got with
+the arguments of the server. The game use its arguments according its rules.
+The main function responsible running the game must be called game()
